@@ -1,0 +1,33 @@
+{
+  "name": "product-store",
+  "version": "1.0.0",
+  "description": "Building a product store to practice PERN stack",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhithyan-pradeep/Product-Store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/adhithyan-pradeep/Product-Store/issues"
+  },
+  "homepage": "https://github.com/adhithyan-pradeep/Product-Store#readme",
+  "dependencies": {
+    "@arcjet/node": "^1.1.0",
+    "@neondatabase/serverless": "^1.0.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
